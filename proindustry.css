@@ -1,0 +1,559 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    margin: auto;
+    width: 82%;
+}
+.clear
+{
+    clear: both;
+}
+h1, h2, h3, a
+{
+    font-family: system-ui
+}
+p
+{
+    font-family: monospace;  
+    font-size: 15px;
+    line-height: 1.7;
+}
+button
+{
+    cursor: pointer;
+}
+
+/* start slider */
+.slider
+{
+    background-image: url("images/cover1.png");
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+    color: #FFF;
+}
+.slider .top
+{
+    height: 20%;
+    background-color: #000;
+    opacity: 0.6;
+    padding: 10px;
+}
+.slider .top h1 span
+{
+    color: #F8BC27;
+}
+.slider .bottom h1
+{
+    margin-top: 100px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.circles
+{
+    margin: auto;
+}
+.circle1, .circle2, .circle3
+{
+    margin-top: 30px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;  
+    background-color: #FFF;
+    cursor: pointer;
+}
+.circle1
+{
+    background-color: #F8BC27;
+}
+.circle2:hover, .circle3:hover
+{
+    background-color: #F8BC27;
+}
+
+/* end slider */
+
+/* start section1 */
+.section1
+{
+    color: #FFF;
+    text-align: center;
+    background-color: #F8BC27;
+    overflow: hidden;
+    padding: 0px;
+    text-align: center;
+}
+.section1 .nav
+{
+    margin: auto;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #FFF;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 360px;
+}
+.section1 .nav a
+{   
+    text-decoration: none;   
+    float: left;
+    display: block;
+    color: #FFF;
+    padding: 14px 16px;
+    color: black;
+    font-size: 17px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    font-weight: bold;
+}
+.section1 .nav .special
+{
+    color: #FFF;
+    background-color: #F8BC27;
+}
+.section1 .nav a:hover
+{
+    color: #FFF;
+    background-color: #F8BC27;
+}
+.section1 .body
+{
+    padding: 45px 0 70px 0;
+}
+.section1 h1
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section1 p
+{
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.hex
+{
+    width: 130px;
+	height: 85px;
+	background-color: #1E1E1e;
+	position: relative;
+    display: inline-block;
+    margin: 25px;
+}
+.hex:before 
+{
+	content: "";
+	position: absolute;
+	top: -40px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-bottom: 40px solid #1E1E1E;
+}
+.hex:after 
+{
+	content: "";
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-top: 40px solid #1E1E1E;
+}
+.section1 .body .hexagons div img
+{
+    width: 40px;
+    margin-top: 25px;
+}
+.section1 .body button
+{
+    background-color: #1E1E1E;
+    color: #FFF;
+    padding: 15px 40px;
+    border: none;
+}
+.section1 .body button:hover
+{
+    background-color: #F8BC27;
+    color: #1E1E1E;
+    outline: 1.2px solid #1E1E1E;
+}
+
+/* end section1 */
+
+/* start section2 */
+
+.section2
+{
+    padding: 40px;
+    text-align: center;
+    background-color: #FFF;
+    color: #000;
+}
+.section2 h1
+{
+    color: #F8BC27;
+    font-weight: bold;
+    overflow: hidden;
+}
+.section2 h2
+{
+    color: #1E1E1E;
+}
+.section2 .provide div
+{
+    display: inline-block;
+    margin: 10px;
+}
+.section2 .provide div img
+{
+    width: 100px;
+}
+
+/* end section2 */
+
+/* start section3 */
+
+.section3
+{
+    height: 400px;
+    padding: 40px;
+    text-align: left;
+    background-image: url("images/cover4.png");
+    background-size: cover;
+    color: #FFF;
+}
+.section3 span
+{
+    font-size: 65px;
+}
+.section3 button
+{
+    font-size: 17px;
+    margin-top: 20px;
+    background-color: #F8BC27;
+    color: #FFF;
+    padding: 15px 40px;
+    border: none;
+}
+.section3 button:hover
+{
+    background-color: #FFF;
+    color: #F8BC27;
+    outline: 1.2px solid #F8BC27;
+}
+
+/* end section3 */
+
+/* start section4 */
+
+.section4
+{
+    padding: 70px;
+    background-color: #252728;
+    text-align: center;
+    color: #FFF;
+}
+.section4 .sec1, .sec2
+{
+    width: 80%;
+    height: 280px;
+    font-size: 15px;
+    margin: auto;
+    background-color: aquamarine;
+    position: relative;
+}
+.section4 .sec1 .img, .section4 .sec2 .img
+{
+    background-size: cover;
+    width: 70%;
+    height: 280px;
+}
+.section4 .sec1 .img
+{
+    background-image: url("images/cover2.jpg");
+    float: left;
+    margin-bottom: 50px;
+}
+.section4 .sec2 .img
+{
+    background-image: url("images/cover3.jpeg");   
+    float: right;
+}
+.section4 .sec1 p, .section4 .sec2 p
+{
+    width: 30%;
+    height: 280px;
+}
+.section4 .sec1 .p1
+{
+    padding-right: 25px;
+    text-align: right;
+    float: right;
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    background-color: #5499BB;
+}
+.section4 .sec2 .p2
+{
+    padding-left: 25px;
+    text-align: left;
+    float: left;
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    background-color: #9E5D83;
+}
+.section4 p img
+{
+    margin-top: 30px;
+    width: 50px;
+}
+
+/* end section4 */
+
+/* start section5 */
+
+.section5
+{
+    padding: 60px;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    background-color: #FFF;
+    position: relative;
+    height: 380px;
+}
+.section5 .hex
+{
+    width: 130px;
+	height: 85px;
+	background-color: #767676;
+	position: relative;
+    display: inline-block;
+    margin: 25px;
+    color: #FFF;
+    text-align: center;
+}
+.section5 .hex:before 
+{
+	content: "";
+	position: absolute;
+	top: -40px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-bottom: 40px solid #767676;
+}
+.section5 .hex:after 
+{
+	content: "";
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	border-top: 40px solid #767676;
+}
+.section5 .hex p
+{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+.section5 .hex p span
+{
+    line-height: .1;
+    letter-spacing: 1.5px;
+    font-size: 65px;
+}
+.section5 .news, .date1, .date2
+{
+    width: 280px;
+    display: inline-block;
+    text-align: center;
+    color: #767676;
+    text-align: left;
+    position: absolute;
+}
+.section5 .news
+{
+    margin-top: 0px;
+    left: 18%;
+}
+.section5 .date1
+{
+    left: 40%;
+}
+.section5 .date2
+{
+    left: 62%;
+}
+.section5 .news p span
+{
+    line-height: 1.2;
+    font-size: 35px;
+    font-weight: bold;
+}
+.section5 .news p a
+{
+    text-decoration: none;
+    color: #767676;
+}
+.section5 button
+{
+    padding: 10px 22px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #767676;
+}
+.section5 button:hover
+{
+    background-color: #767676;
+    color: #FFF;
+}
+
+/* end section5 */
+
+/* start section6 */
+
+.section6
+{
+    padding-top: 60p;
+    background-image: url("images/cover5.png");
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    color: #FFF;
+}
+.section6 h1 
+{
+    font-size: 55px;
+}
+.section6 button
+{
+    margin-top: 30px;
+    padding: 10px 22px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #FFF;
+    border: 1.2px solid #FFF;
+}
+.section6 button:hover
+{
+    color: #314253;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+.section6 .footer
+{
+    background-color: #000;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: 80px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+}
+.section6 .footer p
+{
+    display: inline-block;
+}
+.section6 .footer .social a
+{
+    background-color: #FFF;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.section6 .footer .social img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+.section6 .footer img
+{
+    width: 40px;
+    height: 40px;
+}
+.section6 .footer p, .social, img
+{
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+.section6 .footer p
+{
+    text-align: left;
+}
+.section6 .footer .left
+{
+    left: 10%;
+    top: 41%;
+    position: absolute;
+}
+.section6 .footer .world
+{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+.section6 .footer .right
+{
+    position: absolute;
+    left: 39%;
+    top: 35%;
+}
+.section6 .footer .social
+{
+    position: absolute;
+    left: 61%;
+    top: 35%;
+}
+.section6 .footer .arrow
+{
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* end section6 */
+
+
+
+
+
+
